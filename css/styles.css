@@ -28,7 +28,7 @@ body {
 /* ================== components ================== */
 
 .logo-link {
-  font-style: var(--secondary-font);
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -96,18 +96,26 @@ body {
   color: #ffffff;
 }
 
+.hero-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .hero-btn {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
 
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 
   color: #ffffff;
@@ -115,13 +123,14 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: 188CE8;
+  color: #188ce8;
 }
 
 /* ================== /hero ================== */
 
 /* ================== section-advantage ================== */
 .advantage-header {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -129,7 +138,6 @@ body {
 }
 
 .advantage-paragraph {
-  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
@@ -156,7 +164,6 @@ body {
 }
 
 .job-title {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 
@@ -189,72 +196,42 @@ body {
 /* ================== portfolio ================== */
 
 .btn {
-  height: 38px;
-  top: 174px;
-  
   border: none;
   border-radius: 4px;
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  
+
   text-align: center;
   letter-spacing: 0.03em;
-  
+
   color: var(--primary-text-color);
 }
 
 .btn:hover,
 .btn:focus {
   background-color: var(--accent-color);
-  color: #FFFFFF;
-  ;
-}
-
-.btn-all {
-  width: 73px;
-  left: 495px;
-}
-
-.btn-websites {
-  width: 128px;
-  left: 576px;
-}
-
-.btn-app {
-  width: 145px;
-  left: 712px;
-}
-
-.btn-design {
-  width: 103px;
-  left: 865px;
-}
-
-.btn-marketing {
-  width: 130px;
-  left: 976px;
+  color: #ffffff;
 }
 
 .header-samples {
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.00;
 
-letter-spacing: 0.06em;
+  letter-spacing: 0.06em;
 
-color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .par-samples {
-  font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
+  font-size: 16px;
+  line-height: 1.88;
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 /* ================== /portfolio ================== */
